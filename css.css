@@ -1,0 +1,81 @@
+.qty .count1,
+.qty .count2,
+.qty .count3 {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 2px;
+  min-width: 35px;
+  text-align: center;
+}
+.qty .plus1,
+.qty .plus2,
+.qty .plus3 {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial, sans-serif;
+  text-align: center;
+  border-radius: 50%;
+}
+.qty .minus1,
+.qty .minus2,
+.qty .minus3 {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial, sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+#div1,
+#div2,
+#div3 {
+  text-align: center;
+}
+.minus1:hover,
+.minus2:hover,
+.minus3:hover {
+  background-color: #717fe0 !important;
+}
+.plus1:hover,
+.plus2:hover,
+.plus3:hover {
+  background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+#sp1,
+#sp2,
+#sp3 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -moz-user-select: none;
+}
+#ipt1,
+#ipt2,
+#ipt3 {
+  border: 0;
+  width: 2%;
+}
+nput::-webkit-outer-spin-button,
+#ipt1,
+#ipt2,
+#ipt3 ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#ipt1,
+#ipt2,
+#ipt3:disabled {
+  background-color: white;
+}

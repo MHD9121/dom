@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+<title>shopping card</title>
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="LD0005354425_2_0005384418_0005476216.jpg" class="card-img-top " alt="asusrogpic">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG STRIX III</h5>
+              <h5 style ="color:red" class="card-title ">3499 TTC </h5>
+              <button type="button" class="btn btn-success">buy</button>
+              <p class="card-text">ASUS ROG STRIX III G531GV-AL027T
+                INTEL CORE I7-9750H 16 GO SSD 512 GO 15.6" LED FULL HD 120 HZ NVIDIA GEFORCE RTX 2060 6 GO WI-FI AC/BLUETOOTH WINDOWS 10 FAMILLE 64 BITS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="81776_uc85oqowi9vrydch.jpg" class="card-img-top " alt="clavier pic">
+            <div class="card-body">
+              <h5 class="card-title">CLAVIER GAMER ADVANCE GTA 230</h5>
+              <h5 style ="color:red" class="card-title ">49 TTC </h5>
+              <button type="button" class="btn btn-success">buy</button>
+              <p class="card-text">Clavier Gamer ADVANCE GTA 230 - Technologie de Connectivité: Filaire - Interface avec l'ordinateur: USB - Norme du clavier: AZERTY - Nombre de Touches: 105 - Type de touches: semi-mécaniques - 12 Raccourcis Multimédia par combinaison de touche - Longueur du câble: 1.4 m - Rétro-éclairage - design ultra-gamer - Dimensions: 45.4 x 15 x 3.4 cm - Poids: 760 gr - Couleur: Noir</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="souris-gaming-spirit-of-gamer-elite-m20-noir.jpg" class="card-img-top" alt="sourispic">
+            <div class="card-body">
+              <h5 class="card-title">SOURIS GAMING SPIRIT OF GAMER ELITE M20</h5>
+              <h5 style ="color:red" class="card-title ">39 TTC </h5>
+              <button type="button" class="btn btn-success">buy</button>
+              <p class="card-text">Souris filaire pour Gamer - Conception ergonomique pour droitier - 7 boutons programmables - Capteur Optique Haute Définition AVAGO A3050 - Résolution maximale 4000 DPI / 6600 FPS - Accélération 20G - Rétro-éclairage LED personnalisable RGB </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="casque-sans-fil-bluetooth-snopy-lucky-sn-bt34-noir.jpg" class="card-img-top" alt="casquepic">
+            <div class="card-body">
+              <h5 class="card-title">CASQUE SANS FIL BLUETOOTH SNOPY LUCKY SN-BT34</h5>
+              <h5 style ="color:red" class="card-title ">99 TTC </h5>
+              <button type="button" class="btn btn-success">buy</button>
+              <p class="card-text">Casque sans fil Bluetooth Snopy Lucky SN-BT34 - Taille Ajustable - Microphone Intégré - Connectivité: Bluetooth 5.0 et Jack 3.5mm - Lecteur de cartes microSD - Lityum (3.7V - 250mAh) - Autonomie Jusqu'à 6-8heures - Taille de l'oreillette 40 mm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <table style="width: 100%; float: center;  ">
+            <tr style="background-color: cornflowerblue;">  
+                <th>delelte</th>
+                <th>article</th>
+                <th>quantité</th>
+                <th>price</th>
+               
+             </tr>
+             <tr  >
+                
+                <td id="rooo1"><button type="button" onclick="myFunction1()" class="btn btn-light"><img src="delete.png" style="width: 30px;"></button></td>
+                <td id="nom1">souris</td>
+                <td id="qtt1"> <div id="div1" class="qty mt-5">
+                    <span id="sp1" class="minus1 bg-dark">-</span>
+                    <input id="ipt1" type="number" class="count1" name="qty" value="1">
+                    <span class="plus1 bg-dark">+</span>
+                </div>
+            </td>
+            <td id="price1"></td>
+                
+             </tr>
+             <tr style="background-color: cornflowerblue" ; ;>
+                
+              <td id="rooo2"><button type="button" onclick="myFunction2()" type="button" class="btn btn-light"><img src="delete.png" style="width: 30px;"></button></td>
+                <td id="nom1" >clavier</td>
+                <td id="qtt2"><div id="div2" class="qty mt-5">
+                  <span id="sp2" class="minus2 bg-dark">-</span>
+                  <input id="ipt2" type="number" class="count2" name="qty" value="1">
+                  <span class="plus2 bg-dark">+</span>
+              </div></td>
+                <td id="price2"></td>
+              </tr>
+             <tr>
+               
+              <td id="rooo3"><button type="button" onclick="myFunction3()" type="button" class="btn btn-light"><img src="delete.png" style="width: 30px;"></button></td>
+                <td id="nom3" style="text-align: center">casque</td>
+                <td id="qtt3"><div id="div3" class="qty mt-5">
+                  <span id="sp3" class="minus3 bg-dark">-</span>
+                  <input id="ipt3" type="number" class="count3" name="qty" value="1">
+                  <span class="plus3 bg-dark">+</span>
+              </div></td>
+                <td id="price3"></td>
+                
+             </tr>
+             <tr style="background-color: cornflowerblue">
+                <td  colspan="3"> Totale</td>
+                <td ><h6 id="total">0</h6></td>
+             </tr>
+
+             </table>
+             <script>
+   let product1 =document.getElementById('ipt1');
+  let product2 =document.getElementById('ipt2');
+  let product3 =document.getElementById('ipt3');
+  var setprice1 =document.getElementById('price1');
+  var setprice2 =document.getElementById('price2');
+  var setprice3 =document.getElementById('price3');
+  var productsQtt=[Number.parseInt(product1.getAttribute('value')),Number.parseInt(product2.getAttribute('value')),Number.parseInt(product3.getAttribute('value'))]
+  var productsPrice=[39,49,99];
+  
+setprice1.innerHTML=productsQtt[0]*productsPrice[0];
+setprice2.innerHTML=productsQtt[1]*productsPrice[1];
+setprice3.innerHTML=productsQtt[2]*productsPrice[2];
+
+var totale = document.getElementById('total');
+
+
+
+                 	$(document).ready(function(){
+		    $('.count1').prop('disabled', true);
+   			$(document).on('click','.plus1',function(){
+          
+				$('.count1').val(parseInt($('.count1').val()) + 1 );
+        setprice1.innerHTML=document.getElementById('ipt1').value*productsPrice[0];
+        totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+
+    		});
+        	$(document).on('click','.minus1',function(){
+          
+    			$('.count1').val(parseInt($('.count1').val()) - 1 );
+          setprice1.innerHTML=document.getElementById('ipt1').value*productsPrice[0];
+          totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+    				if ($('.count1').val() == 0) {
+						$('.count1').val(1);
+					}
+    	    	});
+ 		});
+             
+                $(document).ready(function(){
+     $('.count2').prop('disabled', true);
+      $(document).on('click','.plus2',function(){
+        
+     $('.count2').val(parseInt($('.count2').val()) + 1 );
+     setprice2.innerHTML=document.getElementById('ipt2').value*productsPrice[1];
+     totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+
+
+     });
+       $(document).on('click','.minus2',function(){
+       
+       $('.count2').val(parseInt($('.count2').val()) - 1 );
+       setprice2.innerHTML=document.getElementById('ipt2').value*productsPrice[1];
+       totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+
+
+         if ($('.count2').val() == 0) {
+         $('.count2').val(1);
+       }
+         });
+  });
+          
+  $(document).ready(function(){
+$('.count3').prop('disabled', true);
+$(document).on('click','.plus3',function(){
+$('.count3').val(parseInt($('.count3').val()) + 1 );
+setprice3.innerHTML=document.getElementById('ipt3').value*productsPrice[2];
+totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+
+
+
+});
+$(document).on('click','.minus3',function(){
+$('.count3').val(parseInt($('.count3').val()) - 1 );
+setprice3.innerHTML=document.getElementById('ipt3').value*productsPrice[2];
+totale.innerHTML=(document.getElementById('ipt1').value*productsPrice[0])+(document.getElementById('ipt2').value*productsPrice[1])+(document.getElementById('ipt3').value*productsPrice[2]);
+
+
+
+
+if ($('.count3').val() == 0) {
+$('.count3').val(1);
+}
+});
+});
+
+
+function myFunction1() {
+  var ro1 = document.getElementById("rooo1");
+  ro1.remove();
+  var nomm1 = document.getElementById("nom1");
+  nomm1.remove();
+ 
+  var qttt1 = document.getElementById("qtt1");
+  qttt1.remove();
+  var prc1 = document.getElementById("price1");
+  prc1.remove();
+  
+function myFunction2() {
+  var nomm2 = document.getElementById("nom2");
+  nomm2.remove();
+  var ro2 = document.getElementById("rooo2");
+  ro2.remove();
+  var qttt1 = document.getElementById("qtt2");
+  qttt2.remove();
+  var prc2 = document.getElementById("price2");
+  prc2.remove();
+}
+function myFunction3() {
+  var nomm3 = document.getElementById("nom3");
+  nomm3.remove();
+  var ro3 = document.getElementById("rooo3");
+  ro3.remove();
+  var qttt3 = document.getElementById("qtt3");
+  qttt3.remove();
+  var prc3 = document.getElementById("price3");
+  prc3.remove();
+}
+</script>
+
+  
+</body>
